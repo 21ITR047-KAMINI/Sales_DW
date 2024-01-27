@@ -1,0 +1,7767 @@
+[{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15227"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15228"
+  },
+  "--DROP": "Create",
+  "DATABASE": "database",
+  "Sales_DW": "Sales_DW"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15229"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1522a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1522b"
+  },
+  "--DROP": "Use",
+  "DATABASE": "Sales_DW"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1522c"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1522d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1522e"
+  },
+  "--DROP": "--Create",
+  "DATABASE": "Customer",
+  "Sales_DW": "dimension",
+  "": "table"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1522f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15230"
+  },
+  "--DROP": "Create",
+  "DATABASE": "table",
+  "Sales_DW": "DimCustomer"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15231"
+  },
+  "--DROP": "("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15232"
+  },
+  "--DROP": "CustomerID",
+  "DATABASE": "int",
+  "Sales_DW": "primary",
+  "": "key"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15233"
+  },
+  "--DROP": "CustomerAltID",
+  "DATABASE": "varchar(10)",
+  "Sales_DW": "not",
+  "": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15234"
+  },
+  "--DROP": "CustomerName",
+  "DATABASE": "varchar(50),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15235"
+  },
+  "--DROP": "Gender",
+  "DATABASE": "varchar(20)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15236"
+  },
+  "--DROP": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15237"
+  },
+  "--DROP": "go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15238"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15239"
+  },
+  "--DROP": "--Fill",
+  "DATABASE": "the",
+  "Sales_DW": "Customer",
+  "": "dimension"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1523a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1523b"
+  },
+  "--DROP": "Insert",
+  "DATABASE": "into",
+  "Sales_DW": "DimCustomer(CustomerAltID,CustomerName,Gender)values"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1523c"
+  },
+  "--DROP": "('IMI-001','Henry",
+  "DATABASE": "Ford','M'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1523d"
+  },
+  "--DROP": "('IMI-002','Bill",
+  "DATABASE": "Gates','M'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1523e"
+  },
+  "--DROP": "('IMI-003','Muskan",
+  "DATABASE": "Shaikh','F'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1523f"
+  },
+  "--DROP": "('IMI-004','Richard",
+  "DATABASE": "Thrubin','M'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15240"
+  },
+  "--DROP": "('IMI-005','Emma",
+  "DATABASE": "Wattson','F');"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15241"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15242"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15243"
+  },
+  "--DROP": "--Create",
+  "DATABASE": "basic",
+  "Sales_DW": "level",
+  "": "of"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15244"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15245"
+  },
+  "--DROP": "Create",
+  "DATABASE": "table",
+  "Sales_DW": "DimProduct"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15246"
+  },
+  "--DROP": "("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15247"
+  },
+  "--DROP": "ProductKey",
+  "DATABASE": "int",
+  "Sales_DW": "primary",
+  "": "key"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15248"
+  },
+  "--DROP": "ProductAltKey",
+  "DATABASE": "varchar(10)not",
+  "Sales_DW": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15249"
+  },
+  "--DROP": "ProductName",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1524a"
+  },
+  "--DROP": "ProductActualCost",
+  "DATABASE": "money,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1524b"
+  },
+  "--DROP": "ProductSalesCost",
+  "DATABASE": "money"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1524c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1524d"
+  },
+  "--DROP": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1524e"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1524f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15250"
+  },
+  "--DROP": "--Fill",
+  "DATABASE": "the",
+  "Sales_DW": "Product",
+  "": "dimension"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15251"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15252"
+  },
+  "--DROP": "Insert",
+  "DATABASE": "into",
+  "Sales_DW": "DimProduct(ProductAltKey,ProductName,",
+  "": "ProductActualCost,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15253"
+  },
+  "--DROP": "('ITM-001','Wheat",
+  "DATABASE": "Floor",
+  "Sales_DW": "1kg',5.50,6.50),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15254"
+  },
+  "--DROP": "('ITM-002','Rice",
+  "DATABASE": "Grains",
+  "Sales_DW": "1kg',22.50,24),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15255"
+  },
+  "--DROP": "('ITM-003','SunFlower",
+  "DATABASE": "Oil",
+  "Sales_DW": 1,
+  "": "ltr',42,43.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15256"
+  },
+  "--DROP": "('ITM-004','Nirma",
+  "DATABASE": "Soap',18,20),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15257"
+  },
+  "--DROP": "('ITM-005','Arial",
+  "DATABASE": "Washing",
+  "Sales_DW": "Powder",
+  "": "1kg',135,139);"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15258"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15259"
+  },
+  "--DROP": "--Create",
+  "DATABASE": "Store",
+  "Sales_DW": "Dimension",
+  "": "table"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1525a"
+  },
+  "--DROP": "Create",
+  "DATABASE": "table",
+  "Sales_DW": "DimStores"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1525b"
+  },
+  "--DROP": "("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1525c"
+  },
+  "--DROP": "StoreID",
+  "DATABASE": "int",
+  "Sales_DW": "primary",
+  "": "key"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1525d"
+  },
+  "--DROP": "StoreAltID",
+  "DATABASE": "varchar(10)not",
+  "Sales_DW": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1525e"
+  },
+  "--DROP": "StoreName",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1525f"
+  },
+  "--DROP": "StoreLocation",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15260"
+  },
+  "--DROP": "City",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15261"
+  },
+  "--DROP": "State",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15262"
+  },
+  "--DROP": "Country",
+  "DATABASE": "varchar(100)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15263"
+  },
+  "--DROP": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15264"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15265"
+  },
+  "--DROP": "--Fill",
+  "DATABASE": "the",
+  "Sales_DW": "Store",
+  "": "Dimension"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15266"
+  },
+  "--DROP": "Insert",
+  "DATABASE": "into",
+  "Sales_DW": "DimStores(StoreAltID,StoreName,StoreLocation,City,State,Country",
+  "": ")values"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15267"
+  },
+  "--DROP": "('LOC-A1','X-Mart','S.P.",
+  "DATABASE": "RingRoad','Ahmedabad','Guj','India'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15268"
+  },
+  "--DROP": "('LOC-A2','X-Mart','Maninagar','Ahmedabad','Guj','India'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15269"
+  },
+  "--DROP": "('LOC-A3','X-Mart','Sivranjani','Ahmedabad','Guj','India');"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1526a"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1526b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1526c"
+  },
+  "--DROP": "--Create",
+  "DATABASE": "Dimension",
+  "Sales_DW": "Sales",
+  "": "Person"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1526d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1526e"
+  },
+  "--DROP": "Create",
+  "DATABASE": "table",
+  "Sales_DW": "DimSalesPerson"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1526f"
+  },
+  "--DROP": "("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15270"
+  },
+  "--DROP": "SalesPersonID",
+  "DATABASE": "int",
+  "Sales_DW": "primary",
+  "": "key"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15271"
+  },
+  "--DROP": "SalesPersonAltID",
+  "DATABASE": "varchar(10)not",
+  "Sales_DW": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15272"
+  },
+  "--DROP": "SalesPersonName",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15273"
+  },
+  "--DROP": "StoreID",
+  "DATABASE": "int,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15274"
+  },
+  "--DROP": "City",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15275"
+  },
+  "--DROP": "State",
+  "DATABASE": "varchar(100),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15276"
+  },
+  "--DROP": "Country",
+  "DATABASE": "varchar(100)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15277"
+  },
+  "--DROP": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15278"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15279"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1527a"
+  },
+  "--DROP": "--Fill",
+  "DATABASE": "the",
+  "Sales_DW": "Dimension",
+  "": "Sales"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1527b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1527c"
+  },
+  "--DROP": "Insert",
+  "DATABASE": "into",
+  "Sales_DW": "DimSalesPerson(SalesPersonAltID,SalesPersonName,StoreID,City,State,Country",
+  "": ")values"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1527d"
+  },
+  "--DROP": "('SP-DMSPR1','Ashish',1,'Ahmedabad','Guj','India'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1527e"
+  },
+  "--DROP": "('SP-DMSPR2','Ketan',1,'Ahmedabad','Guj','India'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1527f"
+  },
+  "--DROP": "('SP-DMNGR1','Srinivas',2,'Ahmedabad','Guj','India'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15280"
+  },
+  "--DROP": "('SP-DMNGR2','Saad',2,'Ahmedabad','Guj','India'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15281"
+  },
+  "--DROP": "('SP-DMSVR1','Jasmin',3,'Ahmedabad','Guj','India'),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15282"
+  },
+  "--DROP": "('SP-DMSVR2','Jacob',3,'Ahmedabad','Guj','India');"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15283"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15284"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15285"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15286"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15287"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15288"
+  },
+  "--DROP": "SET",
+  "DATABASE": "ANSI_NULLS",
+  "Sales_DW": "ON"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15289"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1528a"
+  },
+  "--DROP": "SET",
+  "DATABASE": "QUOTED_IDENTIFIER",
+  "Sales_DW": "ON"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1528b"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1528c"
+  },
+  "--DROP": "SET",
+  "DATABASE": "ANSI_PADDING",
+  "Sales_DW": "ON"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1528d"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1528e"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1528f"
+  },
+  "--DROP": "CREATE",
+  "DATABASE": "TABLE",
+  "Sales_DW": "[dbo].[DimTime]("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15290"
+  },
+  "--DROP": "\t[TimeKey]",
+  "DATABASE": "[int]",
+  "Sales_DW": "NOT",
+  "": "NULL,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15291"
+  },
+  "--DROP": "\t[TimeAltKey]",
+  "DATABASE": "[int]",
+  "Sales_DW": "NOT",
+  "": "NULL,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15292"
+  },
+  "--DROP": "\t[Time30]",
+  "DATABASE": "[varchar](8)",
+  "Sales_DW": "NOT",
+  "": "NULL,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15293"
+  },
+  "--DROP": "\t[Hour30]",
+  "DATABASE": "[tinyint]",
+  "Sales_DW": "NOT",
+  "": "NULL,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15294"
+  },
+  "--DROP": "\t[MinuteNumber]",
+  "DATABASE": "[tinyint]",
+  "Sales_DW": "NOT",
+  "": "NULL,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15295"
+  },
+  "--DROP": "\t[SecondNumber]",
+  "DATABASE": "[tinyint]",
+  "Sales_DW": "NOT",
+  "": "NULL,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15296"
+  },
+  "--DROP": "\t[TimeInSecond]",
+  "DATABASE": "[int]",
+  "Sales_DW": "NOT",
+  "": "NULL,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15297"
+  },
+  "--DROP": "\t[HourlyBucket]",
+  "DATABASE": "varchar(15)not",
+  "Sales_DW": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15298"
+  },
+  "--DROP": "\t[DayTimeBucketGroupKey]",
+  "DATABASE": "int",
+  "Sales_DW": "not",
+  "": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15299"
+  },
+  "--DROP": "\t[DayTimeBucket]",
+  "DATABASE": "varchar(100)",
+  "Sales_DW": "not",
+  "": null
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1529a"
+  },
+  "DATABASE": "CONSTRAINT",
+  "Sales_DW": "[PK_DimTime]",
+  "": "PRIMARY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1529b"
+  },
+  "DATABASE": "("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1529c"
+  },
+  "DATABASE": "[TimeKey]",
+  "Sales_DW": "ASC"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1529d"
+  },
+  "DATABASE": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1529e"
+  },
+  "DATABASE": "WITH",
+  "Sales_DW": "(PAD_INDEX"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1529f"
+  },
+  "DATABASE": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a0"
+  },
+  "DATABASE": "ON",
+  "Sales_DW": "[PRIMARY]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a1"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a2"
+  },
+  "DATABASE": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a3"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a4"
+  },
+  "DATABASE": "SET",
+  "Sales_DW": "ANSI_PADDING",
+  "": "OFF"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a5"
+  },
+  "DATABASE": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a7"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a8"
+  },
+  "--DROP": "/*****",
+  "DATABASE": "Create",
+  "Sales_DW": "Stored",
+  "": "procedure"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152a9"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152aa"
+  },
+  "--DROP": "SET",
+  "DATABASE": "ANSI_NULLS",
+  "Sales_DW": "ON"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ab"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ac"
+  },
+  "--DROP": "SET",
+  "DATABASE": "QUOTED_IDENTIFIER",
+  "Sales_DW": "ON"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ad"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ae"
+  },
+  "--DROP": "CREATE",
+  "DATABASE": "PROCEDURE",
+  "Sales_DW": "[dbo].[FillDimTime]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152af"
+  },
+  "--DROP": "as"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b0"
+  },
+  "--DROP": "BEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b1"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b2"
+  },
+  "--DROP": "--Specify",
+  "DATABASE": "Total",
+  "Sales_DW": "Number",
+  "": "of"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b3"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@Size",
+  "Sales_DW": "INTEGER"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b4"
+  },
+  "--DROP": "--iF",
+  "DATABASE": "@Size=32",
+  "Sales_DW": "THEN",
+  "": "This"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b5"
+  },
+  "--DROP": "Set",
+  "DATABASE": "@Size=23"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b7"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@hour",
+  "Sales_DW": "INTEGER"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b8"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@minute",
+  "Sales_DW": "INTEGER"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152b9"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@second",
+  "Sales_DW": "INTEGER"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ba"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@k",
+  "Sales_DW": "INTEGER"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152bb"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@TimeAltKey",
+  "Sales_DW": "INTEGER"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152bc"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@TimeInSeconds",
+  "Sales_DW": "INTEGER"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152bd"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@Time30",
+  "Sales_DW": "varchar(25)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152be"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@Hour30",
+  "Sales_DW": "varchar(4)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152bf"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@Minute30",
+  "Sales_DW": "varchar(4)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c0"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@Second30",
+  "Sales_DW": "varchar(4)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c1"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@HourBucket",
+  "Sales_DW": "varchar(15)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c2"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@HourBucketGroupKey",
+  "Sales_DW": "int"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c3"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@DayTimeBucket",
+  "Sales_DW": "varchar(100)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c4"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@DayTimeBucketGroupKey",
+  "Sales_DW": "int"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c5"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c6"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@hour",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c7"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@minute",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c8"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@second",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152c9"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@k",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ca"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@TimeAltKey",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152cb"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152cc"
+  },
+  "--DROP": "WHILE(@hour<=",
+  "DATABASE": "@Size",
+  "Sales_DW": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152cd"
+  },
+  "--DROP": "BEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ce"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152cf"
+  },
+  "--DROP": "\tif",
+  "DATABASE": "(@hour",
+  "Sales_DW": "<10",
+  "": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d0"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "begin"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d1"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "set",
+  "Sales_DW": "@Hour30",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d2"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "end"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d3"
+  },
+  "--DROP": "\telse"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d4"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "begin"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d5"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "set",
+  "Sales_DW": "@Hour30",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d6"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "end"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d7"
+  },
+  "--DROP": "\t--Create",
+  "DATABASE": "Hour",
+  "Sales_DW": "Bucket",
+  "": "Value\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d8"
+  },
+  "--DROP": "\tset",
+  "DATABASE": "@HourBucket=",
+  "Sales_DW": "@Hour30+':00'",
+  "": "+'-'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152d9"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152da"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152db"
+  },
+  "--DROP": "\tWHILE(@minute",
+  "DATABASE": "<=",
+  "Sales_DW": "59)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152dc"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152dd"
+  },
+  "--DROP": "\t\tWHILE(@second",
+  "Sales_DW": "<=",
+  "": "59)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152de"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "BEGIN\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152df"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e0"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "set",
+  "Sales_DW": "@TimeAltKey",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e1"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "set",
+  "Sales_DW": "@TimeInSeconds",
+  "": "=@hour"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e2"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e3"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "If",
+  "Sales_DW": "@minute"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e4"
+  },
+  "--DROP": "\t\t",
+  "": "begin"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e5"
+  },
+  "--DROP": "\t\t",
+  "": "set"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e6"
+  },
+  "--DROP": "\t\t",
+  "": "end"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e7"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "else"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e8"
+  },
+  "--DROP": "\t\t",
+  "": "begin"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152e9"
+  },
+  "--DROP": "\t\t",
+  "": "set"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ea"
+  },
+  "--DROP": "\t\t",
+  "": "end"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152eb"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ec"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "if",
+  "Sales_DW": "@second"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ed"
+  },
+  "--DROP": "\t\t",
+  "": "begin"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ee"
+  },
+  "--DROP": "\t\t",
+  "": "set"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ef"
+  },
+  "--DROP": "\t\t",
+  "": "end"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f0"
+  },
+  "--DROP": "\t\t",
+  "DATABASE": "else"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f1"
+  },
+  "--DROP": "\t\t",
+  "": "begin"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f2"
+  },
+  "--DROP": "\t\t",
+  "": "set"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f3"
+  },
+  "--DROP": "\t\t",
+  "": "end"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f4"
+  },
+  "--DROP": "\t--Concatenate",
+  "DATABASE": "values",
+  "Sales_DW": "for",
+  "": "Time30\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f5"
+  },
+  "--DROP": "\tset",
+  "DATABASE": "@Time30",
+  "Sales_DW": "=",
+  "": "@Hour30"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f6"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f7"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f8"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152fa"
+  },
+  "--DROP": "\t\t\t",
+  "DATABASE": "WHEN",
+  "Sales_DW": "(@TimeAltKey",
+  "": ">="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152fb"
+  },
+  "--DROP": "\t\t\t",
+  "DATABASE": "WHEN",
+  "Sales_DW": "(@TimeAltKey",
+  "": ">="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152fc"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152fd"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152fe"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd152ff"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15300"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15301"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15302"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15303"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15304"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15305"
+  },
+  "--DROP": "\t--",
+  "DATABASE": "DayTimeBucket",
+  "Sales_DW": "Time",
+  "": "Divided"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15306"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15307"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15308"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15309"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1530a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1530b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1530c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1530d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1530e"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1530f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15310"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15311"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15312"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15313"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15314"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15315"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15316"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15317"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15318"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15319"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1531a"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@minute",
+  "Sales_DW": "=",
+  "": "@minute"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1531b"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@second",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1531c"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1531d"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1531e"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1531f"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15320"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15321"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15322"
+  },
+  "--DROP": "END"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15323"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15324"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15325"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15326"
+  },
+  "--DROP": "Exec",
+  "DATABASE": "[FillDimTime]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15327"
+  },
+  "--DROP": "go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15328"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15329"
+  },
+  "--DROP": "BEGIN",
+  "DATABASE": "TRY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1532a"
+  },
+  "--DROP": "\tDROP",
+  "DATABASE": "TABLE",
+  "Sales_DW": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1532b"
+  },
+  "--DROP": "END",
+  "DATABASE": "TRY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1532c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1532d"
+  },
+  "--DROP": "BEGIN",
+  "DATABASE": "CATCH"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1532e"
+  },
+  "--DROP": "\t/*No",
+  "DATABASE": "Action*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1532f"
+  },
+  "--DROP": "END",
+  "DATABASE": "CATCH"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15330"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15331"
+  },
+  "--DROP": "/**********************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15332"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15333"
+  },
+  "--DROP": "CREATE",
+  "DATABASE": "TABLE\t[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15334"
+  },
+  "--DROP": "\t(\t[DateKey]",
+  "DATABASE": "INT",
+  "Sales_DW": "primary",
+  "": "key,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15335"
+  },
+  "--DROP": "\t\t[Date]",
+  "DATABASE": "DATETIME,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15336"
+  },
+  "--DROP": "\t\t[FullDateUK]",
+  "DATABASE": "CHAR(10),",
+  "Sales_DW": "--",
+  "": "Date"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15337"
+  },
+  "--DROP": "\t\t[FullDateUSA]",
+  "DATABASE": "CHAR(10),--",
+  "Sales_DW": "Date",
+  "": "in"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15338"
+  },
+  "--DROP": "\t\t[DayOfMonth]",
+  "DATABASE": "VARCHAR(2),",
+  "Sales_DW": "--",
+  "": "Field"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15339"
+  },
+  "--DROP": "\t\t[DaySuffix]",
+  "DATABASE": "VARCHAR(4),",
+  "Sales_DW": "--",
+  "": "Apply"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1533a"
+  },
+  "--DROP": "\t\t[DayName]",
+  "DATABASE": "VARCHAR(9),",
+  "Sales_DW": "--",
+  "": "Contains"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1533b"
+  },
+  "--DROP": "\t\t[DayOfWeekUSA]",
+  "DATABASE": "CHAR(1),--",
+  "Sales_DW": "First",
+  "": "Day"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1533c"
+  },
+  "--DROP": "\t\t[DayOfWeekUK]",
+  "DATABASE": "CHAR(1),--",
+  "Sales_DW": "First",
+  "": "Day"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1533d"
+  },
+  "--DROP": "\t\t[DayOfWeekInMonth]",
+  "DATABASE": "VARCHAR(2),",
+  "Sales_DW": "--1st",
+  "": "Monday"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1533e"
+  },
+  "--DROP": "\t\t[DayOfWeekInYear]",
+  "DATABASE": "VARCHAR(2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1533f"
+  },
+  "--DROP": "\t\t[DayOfQuarter]",
+  "DATABASE": "VARCHAR(3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15340"
+  },
+  "--DROP": "\t\t[DayOfYear]",
+  "DATABASE": "VARCHAR(3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15341"
+  },
+  "--DROP": "\t\t[WeekOfMonth]",
+  "DATABASE": "VARCHAR(1),--",
+  "Sales_DW": "Week",
+  "": "Number"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15342"
+  },
+  "--DROP": "\t\t[WeekOfQuarter]",
+  "DATABASE": "VARCHAR(2),",
+  "Sales_DW": "--Week",
+  "": "Number"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15343"
+  },
+  "--DROP": "\t\t[WeekOfYear]",
+  "DATABASE": "VARCHAR(2),--Week",
+  "Sales_DW": "Number",
+  "": "of"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15344"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "VARCHAR(2),",
+  "Sales_DW": "--Number",
+  "": "of"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15345"
+  },
+  "--DROP": "\t\t[MonthName]",
+  "DATABASE": "VARCHAR(9),--January,",
+  "Sales_DW": "February",
+  "": "etc"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15346"
+  },
+  "--DROP": "\t\t[MonthOfQuarter]",
+  "DATABASE": "VARCHAR(2),--",
+  "Sales_DW": "Month",
+  "": "Number"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15347"
+  },
+  "--DROP": "\t\t[Quarter]",
+  "DATABASE": "CHAR(1),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15348"
+  },
+  "--DROP": "\t\t[QuarterName]",
+  "DATABASE": "VARCHAR(9),--First,Second.."
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15349"
+  },
+  "--DROP": "\t\t[Year]",
+  "DATABASE": "CHAR(4),--",
+  "Sales_DW": "Year",
+  "": "value"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1534a"
+  },
+  "--DROP": "\t\t[YearName]",
+  "DATABASE": "CHAR(7),",
+  "Sales_DW": "--CY",
+  "": "2012,CY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1534b"
+  },
+  "--DROP": "\t\t[MonthYear]",
+  "DATABASE": "CHAR(10),",
+  "Sales_DW": "--Jan-2013,Feb-2013"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1534c"
+  },
+  "--DROP": "\t\t[MMYYYY]",
+  "DATABASE": "CHAR(6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1534d"
+  },
+  "--DROP": "\t\t[FirstDayOfMonth]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1534e"
+  },
+  "--DROP": "\t\t[LastDayOfMonth]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1534f"
+  },
+  "--DROP": "\t\t[FirstDayOfQuarter]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15350"
+  },
+  "--DROP": "\t\t[LastDayOfQuarter]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15351"
+  },
+  "--DROP": "\t\t[FirstDayOfYear]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15352"
+  },
+  "--DROP": "\t\t[LastDayOfYear]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15353"
+  },
+  "--DROP": "\t\t[IsHolidayUSA]",
+  "DATABASE": "BIT,--",
+  "Sales_DW": "Flag",
+  "": "1=National"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15354"
+  },
+  "--DROP": "\t\t[IsWeekday]",
+  "DATABASE": "BIT,--",
+  "Sales_DW": "0=Week",
+  "": "End"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15355"
+  },
+  "--DROP": "\t\t[HolidayUSA]",
+  "DATABASE": "VARCHAR(50),--Name",
+  "Sales_DW": "of",
+  "": "Holiday"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15356"
+  },
+  "--DROP": "\t\t[IsHolidayUK]",
+  "DATABASE": "BIT",
+  "Sales_DW": "Null,",
+  "": "--"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15357"
+  },
+  "--DROP": "\t\t[HolidayUK]",
+  "DATABASE": "VARCHAR(50)",
+  "Sales_DW": null,
+  "": "--Name"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15358"
+  },
+  "--DROP": "\t)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15359"
+  },
+  "--DROP": "GO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1535a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1535b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1535c"
+  },
+  "--DROP": "/********************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1535d"
+  },
+  "--DROP": "--Specify",
+  "DATABASE": "Start",
+  "Sales_DW": "Date",
+  "": "and"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1535e"
+  },
+  "--DROP": "--Value",
+  "DATABASE": "of",
+  "Sales_DW": "Start",
+  "": "Date"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1535f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15360"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@StartDate",
+  "Sales_DW": "DATETIME",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15361"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@EndDate",
+  "Sales_DW": "DATETIME",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15362"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15363"
+  },
+  "--DROP": "--Temporary",
+  "DATABASE": "Variables",
+  "Sales_DW": "To",
+  "": "Hold"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15364"
+  },
+  "--DROP": "DECLARE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15365"
+  },
+  "--DROP": "\t@DayOfWeekInMonth",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15366"
+  },
+  "--DROP": "\t@DayOfWeekInYear",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15367"
+  },
+  "--DROP": "\t@DayOfQuarter",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15368"
+  },
+  "--DROP": "\t@WeekOfMonth",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15369"
+  },
+  "--DROP": "\t@CurrentYear",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1536a"
+  },
+  "--DROP": "\t@CurrentMonth",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1536b"
+  },
+  "--DROP": "\t@CurrentQuarter",
+  "DATABASE": "INT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1536c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1536d"
+  },
+  "--DROP": "/*Table",
+  "DATABASE": "Data",
+  "Sales_DW": "type",
+  "": "to"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1536e"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@DayOfWeek",
+  "Sales_DW": "TABLE",
+  "": "(DOW"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1536f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15370"
+  },
+  "--DROP": "INSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@DayOfWeek",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15371"
+  },
+  "--DROP": "INSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@DayOfWeek",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15372"
+  },
+  "--DROP": "INSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@DayOfWeek",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15373"
+  },
+  "--DROP": "INSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@DayOfWeek",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15374"
+  },
+  "--DROP": "INSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@DayOfWeek",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15375"
+  },
+  "--DROP": "INSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@DayOfWeek",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15376"
+  },
+  "--DROP": "INSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@DayOfWeek",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15377"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15378"
+  },
+  "--DROP": "--Extract",
+  "DATABASE": "and",
+  "Sales_DW": "assign",
+  "": "part"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15379"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1537a"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@CurrentDate",
+  "Sales_DW": "AS",
+  "": "DATETIME"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1537b"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@CurrentMonth",
+  "Sales_DW": "=",
+  "": "DATEPART(MM,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1537c"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@CurrentYear",
+  "Sales_DW": "=",
+  "": "DATEPART(YY,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1537d"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@CurrentQuarter",
+  "Sales_DW": "=",
+  "": "DATEPART(QQ,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1537e"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1537f"
+  },
+  "--DROP": "/********************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15380"
+  },
+  "--DROP": "--Proceed",
+  "DATABASE": "only",
+  "Sales_DW": "if",
+  "": "Start"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15381"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15382"
+  },
+  "--DROP": "WHILE",
+  "DATABASE": "@CurrentDate",
+  "Sales_DW": "<",
+  "": "@EndDate"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15383"
+  },
+  "--DROP": "BEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15384"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15385"
+  },
+  "--DROP": "/*Begin",
+  "DATABASE": "day",
+  "Sales_DW": "of",
+  "": "week"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15386"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15387"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15388"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15389"
+  },
+  "--DROP": "\tIF",
+  "DATABASE": "@CurrentMonth",
+  "Sales_DW": "!=",
+  "": "DATEPART(MM,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1538a"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1538b"
+  },
+  "--DROP": "\t\tUPDATE",
+  "DATABASE": "@DayOfWeek"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1538c"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "MonthCount",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1538d"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@CurrentMonth",
+  "Sales_DW": "=",
+  "": "DATEPART(MM,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1538e"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1538f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15390"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15391"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15392"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15393"
+  },
+  "--DROP": "\tIF",
+  "DATABASE": "@CurrentQuarter",
+  "Sales_DW": "!=",
+  "": "DATEPART(QQ,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15394"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15395"
+  },
+  "--DROP": "\t\tUPDATE",
+  "DATABASE": "@DayOfWeek"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15396"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "QuarterCount",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15397"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@CurrentQuarter",
+  "Sales_DW": "=",
+  "": "DATEPART(QQ,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15398"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15399"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1539a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1539b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1539c"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1539d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1539e"
+  },
+  "--DROP": "\tIF",
+  "DATABASE": "@CurrentYear",
+  "Sales_DW": "!=",
+  "": "DATEPART(YY,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1539f"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a0"
+  },
+  "--DROP": "\t\tUPDATE",
+  "DATABASE": "@DayOfWeek"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a1"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "YearCount",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a2"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@CurrentYear",
+  "Sales_DW": "=",
+  "": "DATEPART(YY,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a3"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a4"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a5"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a7"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "@DayOfWeek"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a8"
+  },
+  "--DROP": "\tSET"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153a9"
+  },
+  "--DROP": "\t\tMonthCount",
+  "DATABASE": "=",
+  "Sales_DW": "MonthCount",
+  "": "+"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153aa"
+  },
+  "--DROP": "\t\tQuarterCount",
+  "DATABASE": "=",
+  "Sales_DW": "QuarterCount",
+  "": "+"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ab"
+  },
+  "--DROP": "\t\tYearCount",
+  "DATABASE": "=",
+  "Sales_DW": "YearCount",
+  "": "+"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ac"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "DOW",
+  "Sales_DW": "=",
+  "": "DATEPART(DW,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ae"
+  },
+  "--DROP": "\tSELECT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153af"
+  },
+  "--DROP": "\t\t@DayOfWeekInMonth",
+  "DATABASE": "=",
+  "Sales_DW": "MonthCount,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b0"
+  },
+  "--DROP": "\t\t@DayOfQuarter",
+  "DATABASE": "=",
+  "Sales_DW": "QuarterCount,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b1"
+  },
+  "--DROP": "\t\t@DayOfWeekInYear",
+  "DATABASE": "=",
+  "Sales_DW": "YearCount"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b2"
+  },
+  "--DROP": "\tFROM",
+  "DATABASE": "@DayOfWeek"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b3"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "DOW",
+  "Sales_DW": "=",
+  "": "DATEPART(DW,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b4"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b5"
+  },
+  "--DROP": "/*End",
+  "DATABASE": "day",
+  "Sales_DW": "of",
+  "": "week"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b7"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b8"
+  },
+  "--DROP": "/*",
+  "DATABASE": "Populate",
+  "Sales_DW": "Your",
+  "": "Dimension"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153b9"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ba"
+  },
+  "--DROP": "\tINSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153bb"
+  },
+  "--DROP": "\tSELECT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153bc"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153bd"
+  },
+  "--DROP": "\t\tCONVERT",
+  "DATABASE": "(char(8),@CurrentDate,112)",
+  "Sales_DW": "as",
+  "": "DateKey,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153be"
+  },
+  "--DROP": "\t\t@CurrentDate",
+  "DATABASE": "AS",
+  "Sales_DW": "Date,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153bf"
+  },
+  "--DROP": "\t\tCONVERT",
+  "DATABASE": "(char(10),@CurrentDate,103)",
+  "Sales_DW": "as",
+  "": "FullDateUK,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c0"
+  },
+  "--DROP": "\t\tCONVERT",
+  "DATABASE": "(char(10),@CurrentDate,101)",
+  "Sales_DW": "as",
+  "": "FullDateUSA,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c1"
+  },
+  "--DROP": "\t\tDATEPART(DD,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "DayOfMonth,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c2"
+  },
+  "--DROP": "\t\t--Apply",
+  "DATABASE": "Suffix",
+  "Sales_DW": "values",
+  "": "like"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c3"
+  },
+  "--DROP": "\t\tCASE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c4"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": "DATEPART(DD,@CurrentDate)",
+  "Sales_DW": "IN",
+  "": "(11,12,13)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c5"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": "RIGHT(DATEPART(DD,@CurrentDate),1)",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c6"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": "RIGHT(DATEPART(DD,@CurrentDate),1)",
+  "Sales_DW": "=",
+  "": 2
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c7"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": "RIGHT(DATEPART(DD,@CurrentDate),1)",
+  "Sales_DW": "=",
+  "": 3
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c8"
+  },
+  "--DROP": "\t\t\tELSE",
+  "DATABASE": "CAST(DATEPART(DD,@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "VARCHAR)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153c9"
+  },
+  "--DROP": "\t\t\tEND",
+  "DATABASE": "AS",
+  "Sales_DW": "DaySuffix,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ca"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153cb"
+  },
+  "--DROP": "\t\tDATENAME(DW,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "DayName,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153cc"
+  },
+  "--DROP": "\t\tDATEPART(DW,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "DayOfWeekUSA,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153cd"
+  },
+  "--DROP": "\t\t--",
+  "DATABASE": "check",
+  "Sales_DW": "for",
+  "": "day"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ce"
+  },
+  "--DROP": "\t\tCASE",
+  "DATABASE": "DATEPART(DW,",
+  "Sales_DW": "@CurrentDate)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153cf"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 1,
+  "Sales_DW": "THEN",
+  "": 7
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d0"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 2,
+  "Sales_DW": "THEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d1"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 3,
+  "Sales_DW": "THEN",
+  "": 2
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d2"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 4,
+  "Sales_DW": "THEN",
+  "": 3
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d3"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 5,
+  "Sales_DW": "THEN",
+  "": 4
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d4"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 6,
+  "Sales_DW": "THEN",
+  "": 5
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d5"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 7,
+  "Sales_DW": "THEN",
+  "": 6
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d6"
+  },
+  "--DROP": "\t\t\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d7"
+  },
+  "--DROP": "\t\t\tAS",
+  "DATABASE": "DayOfWeekUK,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d8"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153d9"
+  },
+  "--DROP": "\t\t@DayOfWeekInMonth",
+  "DATABASE": "AS",
+  "Sales_DW": "DayOfWeekInMonth,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153da"
+  },
+  "--DROP": "\t\t@DayOfWeekInYear",
+  "DATABASE": "AS",
+  "Sales_DW": "DayOfWeekInYear,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153db"
+  },
+  "--DROP": "\t\t@DayOfQuarter",
+  "DATABASE": "AS",
+  "Sales_DW": "DayOfQuarter,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153dc"
+  },
+  "--DROP": "\t\tDATEPART(DY,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "DayOfYear,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153dd"
+  },
+  "--DROP": "\t\tDATEPART(WW,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "+",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153de"
+  },
+  "--DROP": "\t\t(DATEDIFF(DD,",
+  "DATABASE": "DATEADD(QQ,",
+  "Sales_DW": "DATEDIFF(QQ,",
+  "": "0,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153df"
+  },
+  "--DROP": "\t\tDATEPART(WW,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "WeekOfYear,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e0"
+  },
+  "--DROP": "\t\tDATEPART(MM,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "Month,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e1"
+  },
+  "--DROP": "\t\tDATENAME(MM,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "MonthName,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e2"
+  },
+  "--DROP": "\t\tCASE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e3"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": "DATEPART(MM,",
+  "Sales_DW": "@CurrentDate)",
+  "": "IN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e4"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": "DATEPART(MM,",
+  "Sales_DW": "@CurrentDate)",
+  "": "IN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e5"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": "DATEPART(MM,",
+  "Sales_DW": "@CurrentDate)",
+  "": "IN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e6"
+  },
+  "--DROP": "\t\t\tEND",
+  "DATABASE": "AS",
+  "Sales_DW": "MonthOfQuarter,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e7"
+  },
+  "--DROP": "\t\tDATEPART(QQ,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "Quarter,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e8"
+  },
+  "--DROP": "\t\tCASE",
+  "DATABASE": "DATEPART(QQ,",
+  "Sales_DW": "@CurrentDate)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153e9"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 1,
+  "Sales_DW": "THEN",
+  "": "'First'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ea"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 2,
+  "Sales_DW": "THEN",
+  "": "'Second'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153eb"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 3,
+  "Sales_DW": "THEN",
+  "": "'Third'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ec"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 4,
+  "Sales_DW": "THEN",
+  "": "'Fourth'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ed"
+  },
+  "--DROP": "\t\t\tEND",
+  "DATABASE": "AS",
+  "Sales_DW": "QuarterName,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ee"
+  },
+  "--DROP": "\t\tDATEPART(YEAR,",
+  "DATABASE": "@CurrentDate)",
+  "Sales_DW": "AS",
+  "": "Year,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ef"
+  },
+  "--DROP": "\t\t'CY",
+  "DATABASE": "'",
+  "Sales_DW": "+",
+  "": "CONVERT(VARCHAR,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f0"
+  },
+  "--DROP": "\t\tLEFT(DATENAME(MM,",
+  "DATABASE": "@CurrentDate),",
+  "Sales_DW": "3)",
+  "": "+"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f1"
+  },
+  "--DROP": "\t\tRIGHT('0'",
+  "DATABASE": "+",
+  "Sales_DW": "CONVERT(VARCHAR,",
+  "": "DATEPART(MM,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f2"
+  },
+  "--DROP": "\t\tCONVERT(DATETIME,",
+  "DATABASE": "CONVERT(DATE,",
+  "Sales_DW": "DATEADD(DD,",
+  "": "-"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f3"
+  },
+  "--DROP": "\t\tCONVERT(DATETIME,",
+  "DATABASE": "CONVERT(DATE,",
+  "Sales_DW": "DATEADD(DD,",
+  "": "-"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f4"
+  },
+  "--DROP": "\t\tDATEADD(QQ,",
+  "DATABASE": "DATEDIFF(QQ,",
+  "Sales_DW": "0,",
+  "": "@CurrentDate),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f5"
+  },
+  "--DROP": "\t\tDATEADD(QQ,",
+  "DATABASE": "DATEDIFF(QQ,",
+  "Sales_DW": "-1,",
+  "": "@CurrentDate),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f6"
+  },
+  "--DROP": "\t\tCONVERT(DATETIME,",
+  "DATABASE": "'01/01/'",
+  "Sales_DW": "+",
+  "": "CONVERT(VARCHAR,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f7"
+  },
+  "--DROP": "\t\tCONVERT(DATETIME,",
+  "DATABASE": "'12/31/'",
+  "Sales_DW": "+",
+  "": "CONVERT(VARCHAR,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f8"
+  },
+  "--DROP": "\t\tNULL",
+  "DATABASE": "AS",
+  "Sales_DW": "IsHolidayUSA,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153f9"
+  },
+  "--DROP": "\t\tCASE",
+  "DATABASE": "DATEPART(DW,",
+  "Sales_DW": "@CurrentDate)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153fa"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 1,
+  "Sales_DW": "THEN",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153fb"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 2,
+  "Sales_DW": "THEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153fc"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 3,
+  "Sales_DW": "THEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153fd"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 4,
+  "Sales_DW": "THEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153fe"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 5,
+  "Sales_DW": "THEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd153ff"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 6,
+  "Sales_DW": "THEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15400"
+  },
+  "--DROP": "\t\t\tWHEN",
+  "DATABASE": 7,
+  "Sales_DW": "THEN",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15401"
+  },
+  "--DROP": "\t\t\tEND",
+  "DATABASE": "AS",
+  "Sales_DW": "IsWeekday,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15402"
+  },
+  "--DROP": "\t\tNULL",
+  "DATABASE": "AS",
+  "Sales_DW": "HolidayUSA,",
+  "": "Null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15403"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15404"
+  },
+  "--DROP": "\tSET",
+  "DATABASE": "@CurrentDate",
+  "Sales_DW": "=",
+  "": "DATEADD(DD,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15405"
+  },
+  "--DROP": "END"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15406"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15407"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15408"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15409"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1540a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1540b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1540c"
+  },
+  "--DROP": "/*Add",
+  "DATABASE": "HOLIDAYS",
+  "Sales_DW": "UK*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1540d"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1540e"
+  },
+  "--DROP": "--",
+  "DATABASE": "Good",
+  "Sales_DW": "Friday"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1540f"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15410"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "Sales_DW": "=",
+  "": "'Good"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15411"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 4
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15412"
+  },
+  "--DROP": "--",
+  "DATABASE": "Easter",
+  "Sales_DW": "Monday"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15413"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15414"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "Sales_DW": "=",
+  "": "'Easter"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15415"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 4
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15416"
+  },
+  "--DROP": "--",
+  "DATABASE": "Early",
+  "Sales_DW": "May",
+  "": "Bank"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15417"
+  },
+  "": "UPDATE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15418"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "Sales_DW": "=",
+  "": "'Early"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15419"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 5
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1541a"
+  },
+  "--DROP": "--",
+  "DATABASE": "Spring",
+  "Sales_DW": "Bank",
+  "": "Holiday"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1541b"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1541c"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "Sales_DW": "=",
+  "": "'Spring"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1541d"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 5
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1541e"
+  },
+  "--DROP": "--",
+  "DATABASE": "Summer",
+  "Sales_DW": "Bank",
+  "": "Holiday"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1541f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15420"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "Sales_DW": "=",
+  "": "'Summer"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15421"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 8
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15422"
+  },
+  "--DROP": "--",
+  "DATABASE": "Boxing",
+  "Sales_DW": "Day"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15423"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15424"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "Sales_DW": "=",
+  "": "'Boxing"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15425"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 12
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15426"
+  },
+  "--DROP": "--CHRISTMAS"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15427"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15428"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "Sales_DW": "=",
+  "": "'Christmas"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15429"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 12
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1542a"
+  },
+  "--DROP": "--New",
+  "DATABASE": "Years",
+  "Sales_DW": "Day"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1542b"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1542c"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUK",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1542d"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1542e"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1542f"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15430"
+  },
+  "--DROP": "\tSET",
+  "DATABASE": "IsHolidayUK",
+  "Sales_DW": "=",
+  "": "CASE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15431"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15432"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15433"
+  },
+  "--DROP": "\t/*Add",
+  "DATABASE": "HOLIDAYS",
+  "Sales_DW": "USA*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15434"
+  },
+  "--DROP": "\t/*THANKSGIVING",
+  "DATABASE": "-",
+  "Sales_DW": "Fourth",
+  "": "THURSDAY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15435"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15436"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Thanksgiving"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15437"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15438"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 11
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15439"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "Sales_DW": "=",
+  "": "'Thursday'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1543a"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "DayOfWeekInMonth",
+  "Sales_DW": "=",
+  "": 4
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1543b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1543c"
+  },
+  "--DROP": "\t/*CHRISTMAS*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1543d"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1543e"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Christmas"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1543f"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15440"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 12
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15441"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15442"
+  },
+  "--DROP": "\t/*4th",
+  "DATABASE": "of",
+  "Sales_DW": "July*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15443"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15444"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Independance"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15445"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 7
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15446"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15447"
+  },
+  "--DROP": "\t/*New",
+  "DATABASE": "Years",
+  "Sales_DW": "Day*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15448"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15449"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'New"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1544a"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "[Month]",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1544b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1544c"
+  },
+  "--DROP": "\t/*Memorial",
+  "DATABASE": "Day",
+  "Sales_DW": "-",
+  "": "Last"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1544d"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1544e"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Memorial"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1544f"
+  },
+  "--DROP": "\tFROM",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15450"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "DateKey",
+  "Sales_DW": "IN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15451"
+  },
+  "--DROP": "\t\t("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15452"
+  },
+  "--DROP": "\t\tSELECT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15453"
+  },
+  "--DROP": "\t\t\tMAX(DateKey)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15454"
+  },
+  "--DROP": "\t\tFROM",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15455"
+  },
+  "--DROP": "\t\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15456"
+  },
+  "--DROP": "\t\t\t[MonthName]",
+  "DATABASE": "=",
+  "Sales_DW": "'May'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15457"
+  },
+  "--DROP": "\t\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15458"
+  },
+  "--DROP": "\t\tGROUP",
+  "DATABASE": "BY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15459"
+  },
+  "--DROP": "\t\t\t[Year],"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1545a"
+  },
+  "--DROP": "\t\t\t[Month]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1545b"
+  },
+  "--DROP": "\t\t)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1545c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1545d"
+  },
+  "--DROP": "\t/*Labor",
+  "DATABASE": "Day",
+  "Sales_DW": "-",
+  "": "First"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1545e"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1545f"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Labor"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15460"
+  },
+  "--DROP": "\tFROM",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15461"
+  },
+  "--DROP": "\tWHERE",
+  "DATABASE": "DateKey",
+  "Sales_DW": "IN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15462"
+  },
+  "--DROP": "\t\t("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15463"
+  },
+  "--DROP": "\t\tSELECT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15464"
+  },
+  "--DROP": "\t\t\tMIN(DateKey)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15465"
+  },
+  "--DROP": "\t\tFROM",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15466"
+  },
+  "--DROP": "\t\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15467"
+  },
+  "--DROP": "\t\t\t[MonthName]",
+  "DATABASE": "=",
+  "Sales_DW": "'September'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15468"
+  },
+  "--DROP": "\t\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "Sales_DW": "=",
+  "": "'Monday'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15469"
+  },
+  "--DROP": "\t\tGROUP",
+  "DATABASE": "BY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1546a"
+  },
+  "--DROP": "\t\t\t[Year],"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1546b"
+  },
+  "--DROP": "\t\t\t[Month]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1546c"
+  },
+  "--DROP": "\t\t)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1546d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1546e"
+  },
+  "--DROP": "\t/*Valentine's",
+  "DATABASE": "Day*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1546f"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15470"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Valentine''s"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15471"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15472"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 2
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15473"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfMonth]",
+  "Sales_DW": "=",
+  "": 14
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15474"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15475"
+  },
+  "--DROP": "\t/*Saint",
+  "DATABASE": "Patrick's",
+  "Sales_DW": "Day*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15476"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15477"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Saint"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15478"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15479"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 3
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1547a"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfMonth]",
+  "Sales_DW": "=",
+  "": 17
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1547b"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1547c"
+  },
+  "--DROP": "\t/*Martin",
+  "DATABASE": "Luthor",
+  "Sales_DW": "King",
+  "": "Day"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1547d"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1547e"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Martin"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1547f"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15480"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15481"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15482"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[Year]",
+  "Sales_DW": ">=",
+  "": 1983
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15483"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "DayOfWeekInMonth",
+  "Sales_DW": "=",
+  "": 3
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15484"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15485"
+  },
+  "--DROP": "\t/*President's",
+  "DATABASE": "Day",
+  "Sales_DW": "-",
+  "": "Third"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15486"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15487"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'President''s"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15488"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15489"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 2
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1548a"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "Sales_DW": "=",
+  "": "'Monday'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1548b"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "DayOfWeekInMonth",
+  "Sales_DW": "=",
+  "": 3
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1548c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1548d"
+  },
+  "--DROP": "\t/*Mother's",
+  "DATABASE": "Day",
+  "Sales_DW": "-",
+  "": "Second"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1548e"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1548f"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Mother''s"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15490"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15491"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 5
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15492"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "Sales_DW": "=",
+  "": "'Sunday'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15493"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "DayOfWeekInMonth",
+  "Sales_DW": "=",
+  "": 2
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15494"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15495"
+  },
+  "--DROP": "\t/*Father's",
+  "DATABASE": "Day",
+  "Sales_DW": "-",
+  "": "Third"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15496"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15497"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Father''s"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15498"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15499"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 6
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1549a"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "Sales_DW": "=",
+  "": "'Sunday'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1549b"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "DayOfWeekInMonth",
+  "Sales_DW": "=",
+  "": 3
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1549c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1549d"
+  },
+  "--DROP": "\t/*Halloween",
+  "DATABASE": "10/31*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1549e"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1549f"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "Sales_DW": "=",
+  "": "'Halloween'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a0"
+  },
+  "--DROP": "\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a1"
+  },
+  "--DROP": "\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 10
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a2"
+  },
+  "--DROP": "\t\tAND",
+  "DATABASE": "[DayOfMonth]",
+  "Sales_DW": "=",
+  "": 31
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a3"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a4"
+  },
+  "--DROP": "\t/*Election",
+  "DATABASE": "Day",
+  "Sales_DW": "-",
+  "": "The"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a5"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a6"
+  },
+  "--DROP": "\t\tDECLARE",
+  "DATABASE": "@Holidays",
+  "Sales_DW": "TABLE",
+  "": "(ID"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a7"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a8"
+  },
+  "--DROP": "\t\tINSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@Holidays(DateID,",
+  "": "[Year],[Day])"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154a9"
+  },
+  "--DROP": "\t\tSELECT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154aa"
+  },
+  "--DROP": "\t\t\tDateKey,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ab"
+  },
+  "--DROP": "\t\t\t[Year],"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ac"
+  },
+  "--DROP": "\t\t\t[DayOfMonth]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ad"
+  },
+  "--DROP": "\t\tFROM",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ae"
+  },
+  "--DROP": "\t\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154af"
+  },
+  "--DROP": "\t\t\t[Month]",
+  "DATABASE": "=",
+  "Sales_DW": 11
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b0"
+  },
+  "--DROP": "\t\t\tAND",
+  "DATABASE": "[DayOfWeekUSA]",
+  "Sales_DW": "=",
+  "": "'Monday'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b1"
+  },
+  "--DROP": "\t\tORDER",
+  "DATABASE": "BY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b2"
+  },
+  "--DROP": "\t\t\tYEAR,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b3"
+  },
+  "--DROP": "\t\t\tDayOfMonth"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b4"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b5"
+  },
+  "--DROP": "\t\tDECLARE",
+  "DATABASE": "@CNTR",
+  "Sales_DW": "INT,",
+  "": "@POS"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b7"
+  },
+  "--DROP": "\t\tSELECT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b8"
+  },
+  "--DROP": "\t\t\t@CURRENTYEAR",
+  "DATABASE": "=",
+  "Sales_DW": "MIN([Year])"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154b9"
+  },
+  "--DROP": "\t\t\t,",
+  "DATABASE": "@STARTYEAR",
+  "Sales_DW": "=",
+  "": "MIN([Year])"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ba"
+  },
+  "--DROP": "\t\t\t,",
+  "DATABASE": "@ENDYEAR",
+  "Sales_DW": "=",
+  "": "MAX([Year])"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154bb"
+  },
+  "--DROP": "\t\tFROM",
+  "DATABASE": "@Holidays"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154bc"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154bd"
+  },
+  "--DROP": "\t\tWHILE",
+  "DATABASE": "@CURRENTYEAR",
+  "Sales_DW": "<=",
+  "": "@ENDYEAR"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154be"
+  },
+  "--DROP": "\t\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154bf"
+  },
+  "--DROP": "\t\t\tSELECT",
+  "DATABASE": "@CNTR",
+  "Sales_DW": "=",
+  "": "COUNT([Year])"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c0"
+  },
+  "--DROP": "\t\t\tFROM",
+  "DATABASE": "@Holidays"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c1"
+  },
+  "--DROP": "\t\t\tWHERE",
+  "DATABASE": "[Year]",
+  "Sales_DW": "=",
+  "": "@CURRENTYEAR"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c2"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c3"
+  },
+  "--DROP": "\t\t\tSET",
+  "DATABASE": "@POS",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c4"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c5"
+  },
+  "--DROP": "\t\t\tWHILE",
+  "DATABASE": "@POS",
+  "Sales_DW": "<=",
+  "": "@CNTR"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c6"
+  },
+  "--DROP": "\t\t\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c7"
+  },
+  "--DROP": "\t\t\t\tSELECT",
+  "DATABASE": "@MINDAY",
+  "Sales_DW": "=",
+  "": "MIN(DAY)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c8"
+  },
+  "--DROP": "\t\t\t\tFROM",
+  "DATABASE": "@Holidays"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154c9"
+  },
+  "--DROP": "\t\t\t\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ca"
+  },
+  "--DROP": "\t\t\t\t\t[Year]",
+  "DATABASE": "=",
+  "Sales_DW": "@CURRENTYEAR"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154cb"
+  },
+  "--DROP": "\t\t\t\t\tAND",
+  "DATABASE": "[Week]",
+  "Sales_DW": "IS",
+  "": null
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154cc"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154cd"
+  },
+  "--DROP": "\t\t\t\tUPDATE",
+  "DATABASE": "@Holidays"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ce"
+  },
+  "--DROP": "\t\t\t\t\tSET",
+  "DATABASE": "[Week]",
+  "Sales_DW": "=",
+  "": "@POS"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154cf"
+  },
+  "--DROP": "\t\t\t\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d0"
+  },
+  "--DROP": "\t\t\t\t\t[Year]",
+  "DATABASE": "=",
+  "Sales_DW": "@CURRENTYEAR"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d1"
+  },
+  "--DROP": "\t\t\t\t\tAND",
+  "DATABASE": "[Day]",
+  "Sales_DW": "=",
+  "": "@MINDAY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d2"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d3"
+  },
+  "--DROP": "\t\t\t\tSELECT",
+  "DATABASE": "@POS",
+  "Sales_DW": "=",
+  "": "@POS"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d4"
+  },
+  "--DROP": "\t\t\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d5"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d6"
+  },
+  "--DROP": "\t\t\tSELECT",
+  "DATABASE": "@CURRENTYEAR",
+  "Sales_DW": "=",
+  "": "@CURRENTYEAR"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d7"
+  },
+  "--DROP": "\t\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d8"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154d9"
+  },
+  "--DROP": "\t\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154da"
+  },
+  "--DROP": "\t\t\tSET",
+  "DATABASE": "HolidayUSA",
+  "": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154db"
+  },
+  "--DROP": "\t\tFROM",
+  "DATABASE": "[dbo].[DimDate]",
+  "Sales_DW": "DT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154dc"
+  },
+  "--DROP": "\t\t\tJOIN",
+  "DATABASE": "@Holidays",
+  "Sales_DW": "HL",
+  "": "ON"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154dd"
+  },
+  "--DROP": "\t\tWHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154de"
+  },
+  "--DROP": "\t\t\t[Week]",
+  "DATABASE": "=",
+  "Sales_DW": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154df"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e0"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e1"
+  },
+  "--DROP": "\tUPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e2"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "IsHolidayUSA",
+  "Sales_DW": "=",
+  "": "CASE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e3"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e4"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e5"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e7"
+  },
+  "--DROP": "--select",
+  "DATABASE": "*",
+  "Sales_DW": "from",
+  "": "DimDate"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e8"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154e9"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ea"
+  },
+  "--DROP": "--Script",
+  "DATABASE": 2,
+  "Sales_DW": "fiscal",
+  "": "calendar"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154eb"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ec"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ed"
+  },
+  "--DROP": "SELECT",
+  "DATABASE": "*",
+  "Sales_DW": "FROM",
+  "": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ee"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ef"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f0"
+  },
+  "--DROP": "/*Add",
+  "DATABASE": "Fiscal",
+  "Sales_DW": "date",
+  "": "columns"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f1"
+  },
+  "--DROP": "ALTER",
+  "DATABASE": "TABLE",
+  "Sales_DW": "[dbo].[DimDate]",
+  "": "ADD"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f2"
+  },
+  "--DROP": "\t[FiscalDayOfYear]",
+  "DATABASE": "VARCHAR(3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f3"
+  },
+  "--DROP": "\t[FiscalWeekOfYear]",
+  "DATABASE": "VARCHAR(3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f4"
+  },
+  "--DROP": "\t[FiscalMonth]",
+  "DATABASE": "VARCHAR(2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f5"
+  },
+  "--DROP": "\t[FiscalQuarter]",
+  "DATABASE": "CHAR(1),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f6"
+  },
+  "--DROP": "\t[FiscalQuarterName]",
+  "DATABASE": "VARCHAR(9),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f7"
+  },
+  "--DROP": "\t[FiscalYear]",
+  "DATABASE": "CHAR(4),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f8"
+  },
+  "--DROP": "\t[FiscalYearName]",
+  "DATABASE": "CHAR(7),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154f9"
+  },
+  "--DROP": "\t[FiscalMonthYear]",
+  "DATABASE": "CHAR(10),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154fa"
+  },
+  "--DROP": "\t[FiscalMMYYYY]",
+  "DATABASE": "CHAR(6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154fb"
+  },
+  "--DROP": "\t[FiscalFirstDayOfMonth]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154fc"
+  },
+  "--DROP": "\t[FiscalLastDayOfMonth]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154fd"
+  },
+  "--DROP": "\t[FiscalFirstDayOfQuarter]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154fe"
+  },
+  "--DROP": "\t[FiscalLastDayOfQuarter]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd154ff"
+  },
+  "--DROP": "\t[FiscalFirstDayOfYear]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15500"
+  },
+  "--DROP": "\t[FiscalLastDayOfYear]",
+  "DATABASE": "DATE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15501"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15502"
+  },
+  "--DROP": "\tGO"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15503"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15504"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15505"
+  },
+  "--DROP": "The",
+  "DATABASE": "following",
+  "Sales_DW": "section",
+  "": "needs"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15506"
+  },
+  "--DROP": "*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15507"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15508"
+  },
+  "--DROP": "DECLARE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15509"
+  },
+  "--DROP": "\t@dtFiscalYearStart",
+  "DATABASE": "SMALLDATETIME",
+  "Sales_DW": "=",
+  "": "'January"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1550a"
+  },
+  "--DROP": "\t@FiscalYear",
+  "DATABASE": "INT",
+  "Sales_DW": "=",
+  "": "1995,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1550b"
+  },
+  "--DROP": "\t@LastYear",
+  "DATABASE": "INT",
+  "Sales_DW": "=",
+  "": "2025,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1550c"
+  },
+  "--DROP": "\t@FirstLeapYearInPeriod",
+  "DATABASE": "INT",
+  "Sales_DW": "=",
+  "": 1996
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1550d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1550e"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1550f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15510"
+  },
+  "--DROP": "DECLARE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15511"
+  },
+  "--DROP": "\t@iTemp",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15512"
+  },
+  "--DROP": "\t@LeapWeek",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15513"
+  },
+  "--DROP": "\t@CurrentDate",
+  "DATABASE": "DATETIME,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15514"
+  },
+  "--DROP": "\t@FiscalDayOfYear",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15515"
+  },
+  "--DROP": "\t@FiscalWeekOfYear",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15516"
+  },
+  "--DROP": "\t@FiscalMonth",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15517"
+  },
+  "--DROP": "\t@FiscalQuarter",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15518"
+  },
+  "--DROP": "\t@FiscalQuarterName",
+  "DATABASE": "VARCHAR(10),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15519"
+  },
+  "--DROP": "\t@FiscalYearName",
+  "DATABASE": "VARCHAR(7),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1551a"
+  },
+  "--DROP": "\t@LeapYear",
+  "DATABASE": "INT,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1551b"
+  },
+  "--DROP": "\t@FiscalFirstDayOfYear",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1551c"
+  },
+  "--DROP": "\t@FiscalFirstDayOfQuarter",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1551d"
+  },
+  "--DROP": "\t@FiscalFirstDayOfMonth",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1551e"
+  },
+  "--DROP": "\t@FiscalLastDayOfYear",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1551f"
+  },
+  "--DROP": "\t@FiscalLastDayOfQuarter",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15520"
+  },
+  "--DROP": "\t@FiscalLastDayOfMonth",
+  "DATABASE": "DATE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15521"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15522"
+  },
+  "--DROP": "/*Holds",
+  "DATABASE": "the",
+  "Sales_DW": "years",
+  "": "that"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15523"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@LeapTable",
+  "Sales_DW": "TABLE",
+  "": "(leapyear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15524"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15525"
+  },
+  "--DROP": "/*TABLE",
+  "DATABASE": "to",
+  "Sales_DW": "contain",
+  "": "the"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15526"
+  },
+  "--DROP": "DECLARE",
+  "DATABASE": "@tb",
+  "Sales_DW": "TABLE("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15527"
+  },
+  "--DROP": "\tPeriodDate",
+  "DATABASE": "DATETIME,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15528"
+  },
+  "--DROP": "\t[FiscalDayOfYear]",
+  "DATABASE": "VARCHAR(3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15529"
+  },
+  "--DROP": "\t[FiscalWeekOfYear]",
+  "DATABASE": "VARCHAR(3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1552a"
+  },
+  "--DROP": "\t[FiscalMonth]",
+  "DATABASE": "VARCHAR(2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1552b"
+  },
+  "--DROP": "\t[FiscalQuarter]",
+  "DATABASE": "VARCHAR(1),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1552c"
+  },
+  "--DROP": "\t[FiscalQuarterName]",
+  "DATABASE": "VARCHAR(9),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1552d"
+  },
+  "--DROP": "\t[FiscalYear]",
+  "DATABASE": "VARCHAR(4),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1552e"
+  },
+  "--DROP": "\t[FiscalYearName]",
+  "DATABASE": "VARCHAR(7),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1552f"
+  },
+  "--DROP": "\t[FiscalMonthYear]",
+  "DATABASE": "VARCHAR(10),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15530"
+  },
+  "--DROP": "\t[FiscalMMYYYY]",
+  "DATABASE": "VARCHAR(6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15531"
+  },
+  "--DROP": "\t[FiscalFirstDayOfMonth]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15532"
+  },
+  "--DROP": "\t[FiscalLastDayOfMonth]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15533"
+  },
+  "--DROP": "\t[FiscalFirstDayOfQuarter]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15534"
+  },
+  "--DROP": "\t[FiscalLastDayOfQuarter]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15535"
+  },
+  "--DROP": "\t[FiscalFirstDayOfYear]",
+  "DATABASE": "DATE,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15536"
+  },
+  "--DROP": "\t[FiscalLastDayOfYear]",
+  "DATABASE": "DATE)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15537"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15538"
+  },
+  "--DROP": "/*Populate",
+  "DATABASE": "the",
+  "Sales_DW": "table",
+  "": "with"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15539"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@LeapYear",
+  "Sales_DW": "=",
+  "": "@FirstLeapYearInPeriod"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1553a"
+  },
+  "--DROP": "WHILE",
+  "DATABASE": "(@LeapYear",
+  "Sales_DW": "<",
+  "": "@LastYear)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1553b"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1553c"
+  },
+  "--DROP": "\t\tINSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@leapTable",
+  "": "VALUES"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1553d"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@LeapYear",
+  "Sales_DW": "=",
+  "": "@LeapYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1553e"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1553f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15540"
+  },
+  "--DROP": "/*Initiate",
+  "DATABASE": "parameters",
+  "Sales_DW": "before",
+  "": "loop*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15541"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@CurrentDate",
+  "Sales_DW": "=",
+  "": "@dtFiscalYearStart"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15542"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@FiscalDayOfYear",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15543"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15544"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15545"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@FiscalQuarter",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15546"
+  },
+  "--DROP": "SET",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15547"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15548"
+  },
+  "--DROP": "IF",
+  "DATABASE": "(EXISTS",
+  "Sales_DW": "(SELECT",
+  "": "*"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15549"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1554a"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@LeapWeek",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1554b"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1554c"
+  },
+  "--DROP": "\tELSE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1554d"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1554e"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@LeapWeek",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1554f"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15550"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15551"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15552"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15553"
+  },
+  "--DROP": "/*",
+  "DATABASE": "Loop",
+  "Sales_DW": "on",
+  "": "days"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15554"
+  },
+  "--DROP": "WHILE",
+  "DATABASE": "(DATEPART(yy,@CurrentDate)",
+  "Sales_DW": "<=",
+  "": "@LastYear)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15555"
+  },
+  "--DROP": "BEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15556"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15557"
+  },
+  "--DROP": "/*SET",
+  "DATABASE": "fiscal",
+  "Sales_DW": "Month*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15558"
+  },
+  "--DROP": "\tSELECT",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "=",
+  "": "CASE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15559"
+  },
+  "--DROP": "\t\t/*Use",
+  "DATABASE": "this",
+  "Sales_DW": "section",
+  "": "for"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1555a"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1555b"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 5
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1555c"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 10
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1555d"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 14
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1555e"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 18
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1555f"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 23
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15560"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 27
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15561"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 31
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15562"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 36
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15563"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 40
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15564"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 44
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15565"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": "(49+@LeapWeek)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15566"
+  },
+  "--DROP": "\t\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15567"
+  },
+  "--DROP": "\t\t/*Use",
+  "DATABASE": "this",
+  "Sales_DW": "section",
+  "": "for"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15568"
+  },
+  "--DROP": "\t\t/*"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15569"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1556a"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 5
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1556b"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 9
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1556c"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 14
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1556d"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 18
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1556e"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 22
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1556f"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 27
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15570"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 31
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15571"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 35
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15572"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 40
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15573"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": 44
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15574"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "BETWEEN",
+  "": "(48+@leapWeek)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15575"
+  },
+  "--DROP": "\t\t*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15576"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15577"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15578"
+  },
+  "--DROP": "\t/*SET",
+  "DATABASE": "Fiscal",
+  "Sales_DW": "Quarter*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15579"
+  },
+  "--DROP": "\tSELECT",
+  "DATABASE": "@FiscalQuarter",
+  "Sales_DW": "=",
+  "": "CASE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1557a"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1557b"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 4
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1557c"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 7
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1557d"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 10
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1557e"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1557f"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15580"
+  },
+  "--DROP": "\tSELECT",
+  "DATABASE": "@FiscalQuarterName",
+  "Sales_DW": "=",
+  "": "CASE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15581"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15582"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 4
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15583"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 7
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15584"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": "@FiscalMonth",
+  "Sales_DW": "BETWEEN",
+  "": 10
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15585"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15586"
+  },
+  "--DROP": "\t"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15587"
+  },
+  "--DROP": "\t/*Set",
+  "DATABASE": "Fiscal",
+  "Sales_DW": "Year",
+  "": "Name*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15588"
+  },
+  "--DROP": "\tSELECT",
+  "DATABASE": "@FiscalYearName",
+  "Sales_DW": "=",
+  "": "'FY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15589"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1558a"
+  },
+  "--DROP": "\tINSERT",
+  "DATABASE": "INTO",
+  "Sales_DW": "@tb",
+  "": "(PeriodDate,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1558b"
+  },
+  "--DROP": "\t(@CurrentDate,",
+  "DATABASE": "@FiscalDayOfYear,",
+  "Sales_DW": "@FiscalWeekOfYear,",
+  "": "@FiscalMonth,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1558c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1558d"
+  },
+  "--DROP": "\t/*SET",
+  "DATABASE": "next",
+  "Sales_DW": "day*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1558e"
+  },
+  "--DROP": "\tSET",
+  "DATABASE": "@CurrentDate",
+  "Sales_DW": "=",
+  "": "DATEADD(dd,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1558f"
+  },
+  "--DROP": "\tSET",
+  "DATABASE": "@FiscalDayOfYear",
+  "Sales_DW": "=",
+  "": "@FiscalDayOfYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15590"
+  },
+  "--DROP": "\tSET",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "=",
+  "": "((@FiscalDayOfYear-1)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15591"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15592"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15593"
+  },
+  "--DROP": "\tIF",
+  "DATABASE": "(@FiscalWeekOfYear",
+  "Sales_DW": ">",
+  "": "(52+@LeapWeek))"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15594"
+  },
+  "--DROP": "\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15595"
+  },
+  "--DROP": "\t\t/*Reset",
+  "DATABASE": "a",
+  "Sales_DW": "new",
+  "": "year*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15596"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@FiscalDayOfYear",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15597"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@FiscalWeekOfYear",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15598"
+  },
+  "--DROP": "\t\tSET",
+  "DATABASE": "@FiscalYear",
+  "Sales_DW": "=",
+  "": "@FiscalYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15599"
+  },
+  "--DROP": "\t\tIF",
+  "DATABASE": "(",
+  "Sales_DW": "EXISTS",
+  "": "(SELECT"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1559a"
+  },
+  "--DROP": "\t\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1559b"
+  },
+  "--DROP": "\t\t\tSET",
+  "DATABASE": "@LeapWeek",
+  "Sales_DW": "=",
+  "": 1
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1559c"
+  },
+  "--DROP": "\t\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1559d"
+  },
+  "--DROP": "\t\tELSE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1559e"
+  },
+  "--DROP": "\t\tBEGIN"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1559f"
+  },
+  "--DROP": "\t\t\tSET",
+  "DATABASE": "@LeapWeek",
+  "Sales_DW": "=",
+  "": 0
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a0"
+  },
+  "--DROP": "\t\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a1"
+  },
+  "--DROP": "\tEND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a2"
+  },
+  "--DROP": "END"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a3"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a4"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a5"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a6"
+  },
+  "--DROP": "/*Set",
+  "DATABASE": "first",
+  "Sales_DW": "and",
+  "": "last"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a7"
+  },
+  "--DROP": "UPDATE",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a8"
+  },
+  "--DROP": "SET"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155a9"
+  },
+  "--DROP": "\tFiscalFirstDayOfMonth",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.StartDate,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155aa"
+  },
+  "--DROP": "\tFiscalLastDayOfMonth",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.EndDate"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ab"
+  },
+  "--DROP": "FROM"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ac"
+  },
+  "--DROP": "@tb",
+  "DATABASE": "t,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ad"
+  },
+  "--DROP": "\t("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ae"
+  },
+  "--DROP": "\tSELECT",
+  "DATABASE": "FiscalMonth,",
+  "Sales_DW": "FiscalQuarter,",
+  "": "FiscalYear,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155af"
+  },
+  "--DROP": "\tFROM",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b0"
+  },
+  "--DROP": "\tGROUP",
+  "DATABASE": "BY",
+  "Sales_DW": "FiscalMonth,",
+  "": "FiscalQuarter,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b1"
+  },
+  "--DROP": "\t)",
+  "DATABASE": "minmax"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b2"
+  },
+  "--DROP": "WHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b3"
+  },
+  "--DROP": "\tt.FiscalMonth",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.FiscalMonth",
+  "": "AND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b4"
+  },
+  "--DROP": "\tt.FiscalQuarter",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.FiscalQuarter",
+  "": "AND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b5"
+  },
+  "--DROP": "\tt.FiscalYear",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.FiscalYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b7"
+  },
+  "--DROP": "/*Set",
+  "DATABASE": "first",
+  "Sales_DW": "and",
+  "": "last"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b8"
+  },
+  "--DROP": "UPDATE",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155b9"
+  },
+  "--DROP": "SET"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ba"
+  },
+  "--DROP": "\tFiscalFirstDayOfQuarter",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.StartDate,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155bb"
+  },
+  "--DROP": "\tFiscalLastDayOfQuarter",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.EndDate"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155bc"
+  },
+  "--DROP": "FROM"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155bd"
+  },
+  "--DROP": "@tb",
+  "DATABASE": "t,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155be"
+  },
+  "--DROP": "\t("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155bf"
+  },
+  "--DROP": "\tSELECT",
+  "DATABASE": "FiscalQuarter,",
+  "Sales_DW": "FiscalYear,",
+  "": "min(PeriodDate)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c0"
+  },
+  "--DROP": "\tFROM",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c1"
+  },
+  "--DROP": "\tGROUP",
+  "DATABASE": "BY",
+  "Sales_DW": "FiscalQuarter,",
+  "": "FiscalYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c2"
+  },
+  "--DROP": "\t)",
+  "DATABASE": "minmax"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c3"
+  },
+  "--DROP": "WHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c4"
+  },
+  "--DROP": "\tt.FiscalQuarter",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.FiscalQuarter",
+  "": "AND"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c5"
+  },
+  "--DROP": "\tt.FiscalYear",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.FiscalYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c6"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c7"
+  },
+  "--DROP": "/*Set",
+  "DATABASE": "first",
+  "Sales_DW": "and",
+  "": "last"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c8"
+  },
+  "--DROP": "UPDATE",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155c9"
+  },
+  "--DROP": "SET"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ca"
+  },
+  "--DROP": "\tFiscalFirstDayOfYear",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.StartDate,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155cb"
+  },
+  "--DROP": "\tFiscalLastDayOfYear",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.EndDate"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155cc"
+  },
+  "--DROP": "FROM"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155cd"
+  },
+  "--DROP": "@tb",
+  "DATABASE": "t,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ce"
+  },
+  "--DROP": "\t("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155cf"
+  },
+  "--DROP": "\tSELECT",
+  "DATABASE": "FiscalYear,",
+  "Sales_DW": "min(PeriodDate)",
+  "": "as"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d0"
+  },
+  "--DROP": "\tFROM",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d1"
+  },
+  "--DROP": "\tGROUP",
+  "DATABASE": "BY",
+  "Sales_DW": "FiscalYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d2"
+  },
+  "--DROP": "\t)",
+  "DATABASE": "minmax"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d3"
+  },
+  "--DROP": "WHERE"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d4"
+  },
+  "--DROP": "\tt.FiscalYear",
+  "DATABASE": "=",
+  "Sales_DW": "minmax.FiscalYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d5"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d6"
+  },
+  "--DROP": "/*Set",
+  "DATABASE": "FiscalYearMonth*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d7"
+  },
+  "--DROP": "UPDATE",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d8"
+  },
+  "--DROP": "SET"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155d9"
+  },
+  "--DROP": "\tFiscalMonthYear",
+  "DATABASE": "="
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155da"
+  },
+  "--DROP": "\t\tCASE",
+  "DATABASE": "FiscalMonth"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155db"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 1,
+  "Sales_DW": "THEN",
+  "": "'Jan'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155dc"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 2,
+  "Sales_DW": "THEN",
+  "": "'Feb'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155dd"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 3,
+  "Sales_DW": "THEN",
+  "": "'Mar'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155de"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 4,
+  "Sales_DW": "THEN",
+  "": "'Apr'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155df"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 5,
+  "Sales_DW": "THEN",
+  "": "'May'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e0"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 6,
+  "Sales_DW": "THEN",
+  "": "'Jun'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e1"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 7,
+  "Sales_DW": "THEN",
+  "": "'Jul'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e2"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 8,
+  "Sales_DW": "THEN",
+  "": "'Aug'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e3"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 9,
+  "Sales_DW": "THEN",
+  "": "'Sep'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e4"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 10,
+  "Sales_DW": "THEN",
+  "": "'Oct'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e5"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 11,
+  "Sales_DW": "THEN",
+  "": "'Nov'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e6"
+  },
+  "--DROP": "\t\tWHEN",
+  "DATABASE": 12,
+  "Sales_DW": "THEN",
+  "": "'Dec'"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e7"
+  },
+  "--DROP": "\t\tEND",
+  "DATABASE": "+",
+  "Sales_DW": "'-'",
+  "": "+"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e8"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155e9"
+  },
+  "--DROP": "/*Set",
+  "DATABASE": "FiscalMMYYYY*/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ea"
+  },
+  "--DROP": "UPDATE",
+  "DATABASE": "@tb"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155eb"
+  },
+  "--DROP": "SET"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ec"
+  },
+  "--DROP": "\tFiscalMMYYYY",
+  "DATABASE": "=",
+  "Sales_DW": "RIGHT('0'",
+  "": "+"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ed"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ee"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ef"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f0"
+  },
+  "--DROP": "UPDATE",
+  "DATABASE": "[dbo].[DimDate]"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f1"
+  },
+  "--DROP": "\tSET"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f2"
+  },
+  "--DROP": "\tFiscalDayOfYear",
+  "DATABASE": "=",
+  "Sales_DW": "a.FiscalDayOfYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f3"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalWeekOfYear",
+  "Sales_DW": "=",
+  "": "a.FiscalWeekOfYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f4"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalMonth",
+  "Sales_DW": "=",
+  "": "a.FiscalMonth"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f5"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalQuarter",
+  "Sales_DW": "=",
+  "": "a.FiscalQuarter"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f6"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalQuarterName",
+  "Sales_DW": "=",
+  "": "a.FiscalQuarterName"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f7"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalYear",
+  "Sales_DW": "=",
+  "": "a.FiscalYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f8"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalYearName",
+  "Sales_DW": "=",
+  "": "a.FiscalYearName"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155f9"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalMonthYear",
+  "Sales_DW": "=",
+  "": "a.FiscalMonthYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155fa"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalMMYYYY",
+  "Sales_DW": "=",
+  "": "a.FiscalMMYYYY"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155fb"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalFirstDayOfMonth",
+  "Sales_DW": "=",
+  "": "a.FiscalFirstDayOfMonth"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155fc"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalLastDayOfMonth",
+  "Sales_DW": "=",
+  "": "a.FiscalLastDayOfMonth"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155fd"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalFirstDayOfQuarter",
+  "Sales_DW": "=",
+  "": "a.FiscalFirstDayOfQuarter"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155fe"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalLastDayOfQuarter",
+  "Sales_DW": "=",
+  "": "a.FiscalLastDayOfQuarter"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd155ff"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalFirstDayOfYear",
+  "Sales_DW": "=",
+  "": "a.FiscalFirstDayOfYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15600"
+  },
+  "--DROP": "\t,",
+  "DATABASE": "FiscalLastDayOfYear",
+  "Sales_DW": "=",
+  "": "a.FiscalLastDayOfYear"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15601"
+  },
+  "--DROP": "FROM",
+  "DATABASE": "@tb",
+  "Sales_DW": "a"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15602"
+  },
+  "--DROP": "\tINNER",
+  "DATABASE": "JOIN",
+  "Sales_DW": "[dbo].[DimDate]",
+  "": "b"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15603"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15604"
+  },
+  "--DROP": "/*******************************************************************************************************************************************************/"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15605"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15606"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15607"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15608"
+  },
+  "--DROP": "Create",
+  "DATABASE": "Table",
+  "Sales_DW": "FactProductSales"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15609"
+  },
+  "--DROP": "("
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1560a"
+  },
+  "--DROP": "TransactionId",
+  "DATABASE": "bigint",
+  "Sales_DW": "primary",
+  "": "key"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1560b"
+  },
+  "--DROP": "SalesInvoiceNumber",
+  "DATABASE": "int",
+  "Sales_DW": "not",
+  "": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1560c"
+  },
+  "--DROP": "SalesDateKey",
+  "DATABASE": "int,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1560d"
+  },
+  "--DROP": "SalesTimeKey",
+  "DATABASE": "int,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1560e"
+  },
+  "--DROP": "SalesTimeAltKey",
+  "DATABASE": "int,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1560f"
+  },
+  "--DROP": "StoreID",
+  "DATABASE": "int",
+  "Sales_DW": "not",
+  "": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15610"
+  },
+  "--DROP": "CustomerID",
+  "DATABASE": "int",
+  "Sales_DW": "not",
+  "": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15611"
+  },
+  "--DROP": "ProductID",
+  "DATABASE": "int",
+  "Sales_DW": "not",
+  "": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15612"
+  },
+  "--DROP": "SalesPersonID",
+  "DATABASE": "int",
+  "Sales_DW": "not",
+  "": "null,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15613"
+  },
+  "--DROP": "Quantity",
+  "DATABASE": "float,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15614"
+  },
+  "--DROP": "SalesTotalCost",
+  "DATABASE": "money,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15615"
+  },
+  "--DROP": "ProductActualCost",
+  "DATABASE": "money,"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15616"
+  },
+  "--DROP": "Deviation",
+  "DATABASE": "float"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15617"
+  },
+  "--DROP": ")"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15618"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15619"
+  },
+  "--DROP": "--Add",
+  "DATABASE": "Relation",
+  "Sales_DW": "between",
+  "": "Fact"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1561a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1561b"
+  },
+  "--DROP": "--",
+  "DATABASE": "Add",
+  "Sales_DW": "relation",
+  "": "between"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1561c"
+  },
+  "--DROP": "AlTER",
+  "DATABASE": "TABLE",
+  "Sales_DW": "FactProductSales",
+  "": "ADD"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1561d"
+  },
+  "--DROP": "AlTER",
+  "DATABASE": "TABLE",
+  "Sales_DW": "FactProductSales",
+  "": "ADD"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1561e"
+  },
+  "--DROP": "AlTER",
+  "DATABASE": "TABLE",
+  "Sales_DW": "FactProductSales",
+  "": "ADD"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1561f"
+  },
+  "--DROP": "AlTER",
+  "DATABASE": "TABLE",
+  "Sales_DW": "FactProductSales",
+  "": "ADD"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15620"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15621"
+  },
+  "--DROP": "AlTER",
+  "DATABASE": "TABLE",
+  "Sales_DW": "FactProductSales",
+  "": "ADD"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15622"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15623"
+  },
+  "--DROP": "AlTER",
+  "DATABASE": "TABLE",
+  "Sales_DW": "FactProductSales",
+  "": "ADD"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15624"
+  },
+  "--DROP": "Go"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15625"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15626"
+  },
+  "--DROP": "--Populate",
+  "DATABASE": "your",
+  "Sales_DW": "Fact",
+  "": "table"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15627"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15628"
+  },
+  "--DROP": "Insert",
+  "DATABASE": "into",
+  "Sales_DW": "FactProductSales(SalesInvoiceNumber,SalesDateKey,SalesTimeKey,SalesTimeAltKey,StoreID,CustomerID,ProductID",
+  "": ",SalesPersonID,Quantity,ProductActualCost,SalesTotalCost,Deviation)values"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15629"
+  },
+  "--DROP": "--1-jan-2013"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1562a"
+  },
+  "--DROP": "--SalesInvoiceNumber,SalesDateKey,SalesTimeKey,SalesTimeAltKey,StoreID,CustomerID,ProductID",
+  "DATABASE": ",SalesPersonID,Quantity,ProductActualCost,SalesTotalCost,Deviation)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1562b"
+  },
+  "--DROP": "(1,20130101,44347,121907,1,1,1,1,2,11,13,2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1562c"
+  },
+  "--DROP": "(1,20130101,44347,121907,1,1,2,1,1,22.50,24,1.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1562d"
+  },
+  "--DROP": "(1,20130101,44347,121907,1,1,3,1,1,42,43.5,1.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1562e"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1562f"
+  },
+  "--DROP": "(2,20130101,44519,122159,1,2,3,1,1,42,43.5,1.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15630"
+  },
+  "--DROP": "(2,20130101,44519,122159,1,2,4,1,3,54,60,6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15631"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15632"
+  },
+  "--DROP": "(3,20130101,52415,143335,1,3,2,2,2,11,13,2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15633"
+  },
+  "--DROP": "(3,20130101,52415,143335,1,3,3,2,1,42,43.5,1.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15634"
+  },
+  "--DROP": "(3,20130101,52415,143335,1,3,4,2,3,54,60,6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15635"
+  },
+  "--DROP": "(3,20130101,52415,143335,1,3,5,2,1,135,139,4),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15636"
+  },
+  "--DROP": "--2-jan-2013"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15637"
+  },
+  "--DROP": "--SalesInvoiceNumber,SalesDateKey,SalesTimeKey,SalesTimeAltKey,StoreID,CustomerID,ProductID",
+  "DATABASE": ",SalesPersonID,Quantity,ProductActualCost,SalesTotalCost,Deviation)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15638"
+  },
+  "--DROP": "(4,20130102,44347,121907,1,1,1,1,2,11,13,2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15639"
+  },
+  "--DROP": "(4,20130102,44347,121907,1,1,2,1,1,22.50,24,1.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1563a"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1563b"
+  },
+  "--DROP": "(5,20130102,44519,122159,1,2,3,1,1,42,43.5,1.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1563c"
+  },
+  "--DROP": "(5,20130102,44519,122159,1,2,4,1,3,54,60,6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1563d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1563e"
+  },
+  "--DROP": "(6,20130102,52415,143335,1,3,2,2,2,11,13,2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1563f"
+  },
+  "--DROP": "(6,20130102,52415,143335,1,3,5,2,1,135,139,4),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15640"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15641"
+  },
+  "--DROP": "(7,20130102,44347,121907,2,1,4,3,3,54,60,6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15642"
+  },
+  "--DROP": "(7,20130102,44347,121907,2,1,5,3,1,135,139,4),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15643"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15644"
+  },
+  "--DROP": "--3-jan-2013"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15645"
+  },
+  "--DROP": "--SalesInvoiceNumber,SalesDateKey,SalesTimeKey,SalesTimeAltKey,StoreID,CustomerID,ProductID",
+  "DATABASE": ",SalesPersonID,Quantity,ProductActualCost,SalesTotalCost,Deviation)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15646"
+  },
+  "--DROP": "(8,20130103,59326,162846,1,1,3,1,2,84,87,3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15647"
+  },
+  "--DROP": "(8,20130103,59326,162846,1,1,4,1,3,54,60,3),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15648"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15649"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1564a"
+  },
+  "--DROP": "(9,20130103,59349,162909,1,2,1,1,1,5.5,6.5,1),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1564b"
+  },
+  "--DROP": "(9,20130103,59349,162909,1,2,2,1,1,22.50,24,1.5),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1564c"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1564d"
+  },
+  "--DROP": "(10,20130103,67390,184310,1,3,1,2,2,11,13,2),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1564e"
+  },
+  "--DROP": "(10,20130103,67390,184310,1,3,4,2,3,54,60,6),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd1564f"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15650"
+  },
+  "--DROP": "(11,20130103,74877,204757,2,1,2,3,1,5.5,6.5,1),"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15651"
+  },
+  "--DROP": "(11,20130103,74877,204757,2,1,3,3,1,42,43.5,1.5)"
+},
+{
+  "_id": {
+    "$oid": "65b4b862b910e3e72dd15652"
+  },
+  "--DROP": "Go"
+}]
