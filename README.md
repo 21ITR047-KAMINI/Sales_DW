@@ -1,10 +1,7 @@
 To view 👀  my project 📖
 Click ☝ on to below 👇 link🔗
 
-
-https://drive.google.com/drive/folders/1J3eLFF8nQBW_Pw6-XeCbnHyLQKa0oxTe
-
-
+https://drive.google.com/file/d/1Jd1r84QsVPxTePedxT0hInw7EMQxccZ6/view?usp=drivesdk
 
 
 # Sales_DW
