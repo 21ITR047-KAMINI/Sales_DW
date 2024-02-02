@@ -39,11 +39,8 @@ Here are some example MongoDB queries you can run to analyze the sales data:
 ## Contributing
 Contributions are welcome! Feel free to open issues or pull requests for bug fixes, new features, or documentation improvements.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-For questions or feedback related to this project, please contact [your_email@example.com](mailto:your_email@example.com).
+
 
 ## Acknowledgements
 - Thank you to [MongoDB](https://www.mongodb.com/) for providing a powerful database solution.
